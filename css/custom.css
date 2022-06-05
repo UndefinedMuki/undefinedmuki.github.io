@@ -223,3 +223,33 @@
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
 }
+
+/* status circles */
+.status-green{
+  width: 16px;
+  height:16px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border: 2px solid #CCC;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  background-color: rgb(6, 124, 6);
+  float: left;
+  animation: blink 2s linear infinite;
+  /*position: absolute;*/
+
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
