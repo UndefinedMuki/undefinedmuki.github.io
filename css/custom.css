@@ -239,7 +239,22 @@
   float: left;
   animation: blink 2s linear infinite;
   /*position: absolute;*/
+}
 
+.status-orange{
+  width: 16px;
+  height:16px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border: 2px solid #CCC;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  background-color: rgb(214, 194, 15, 0.973);
+  float: left;
+  animation: blink 2s linear infinite;
+  /*position: absolute;*/
 }
 
 @keyframes blink {
